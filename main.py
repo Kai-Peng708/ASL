@@ -52,7 +52,7 @@ def quizMode():
     counter = 0
     n = 0
     while n <= 500:
-        key = cv2.waitKey(1)
+        key = cv2.waitKey(5)
         ret, frame = capture.read()
         (x, y, z) = frame.shape
         frame = frame[0:x, int((y - x) / 2):int(y - ((y - x) / 2))]
@@ -71,7 +71,7 @@ def quizMode():
             displayed_text = random.choice(categories)
             counter += 1
             continue
-        if counter == 5:
+        if counter == 10:
             break
         if key % 256 == 113:							# q
             break
@@ -112,7 +112,7 @@ def getImage():
 def button3_clicked():
 
     alert = QMessageBox()
-    alert.setText("Teaching Mode: be prepared to sign")
+    alert.setText("Training Mode: be prepared to sign")
     alert.exec_()
     labels, percentage = predict_batch()
     text_display = 'You signed:\n'
@@ -233,7 +233,7 @@ central_widget = QWidget()
 win.setCentralWidget(central_widget)
 button1 = QPushButton('Learning Mode', central_widget)
 button2 = QPushButton('Quizzing Mode', central_widget)
-button3 = QPushButton('Teaching Mode', central_widget)
+button3 = QPushButton('Training Mode', central_widget)
 layout = QHBoxLayout(central_widget)
 layout.addWidget(button1)
 layout.addWidget(button3)
