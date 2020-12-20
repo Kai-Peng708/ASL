@@ -21,14 +21,14 @@ Run the command `python main.py`
 #### Learning Mode
 In this mode, the user will be able to input an alphabet that you would like to query and learn, and the program will enable the user's camera and pop up a live-feed window. There will be a reference picture in the frame and the user can imitate the picture to study the sign for that alphabet. After the learning is done, the user can press <b>Q</b> on the keyboard while signing to the camera. The program will then stop the live feed and evaluate the user's learning outcome.
 
-![learningmode] (insert learning mode picture)
+<img src="pictures/learning_mode.png"></div>
 
 #### Training Mode
 In this mode, the user can practice signing the alphabets learned from Learning Mode into the camera live feed. After a short while, the program will tell you the 3 most possible alphabets that you just signed with probabilities.
 
-![trainingmode] (insert training mode picture)
+<img src="pictures/training_mode.png"></div>
 
 #### Quizzing Mode
 In this mode, the user will be quizzed. The program will randomly generate alphabets for the user to sign. Once the user sign correctly, the program will provide the next alphabet to sign. After about 20 seconds, the quiz will end and the program will indicate how many correct ones the user signed.
 
-![quizzingmode] (insert quizzing mode picture) 
+<img src="pictures/Quiz_mode.png"></div>
