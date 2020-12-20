@@ -1,4 +1,4 @@
-##Artificial Sign Learner
+## Artificial Sign Learner
 The American Sign Language is one of the most commonly used sign languages. As the Handicapped Olympic Game comes near, the need for learning sign languages is expected to rise. However, a good sign language teacher is sometimes difficult to find and the lessons can be costly to take. Motivated by this, our team designed an AI-based sign language learning program. With this program and its 3 built-in modes, you will be able to learn how to sign all the alphabets in ASL and test yourself for the learning outcome.
 
 ### Usage
