@@ -1,10 +1,10 @@
 ## Artificial Sign Learner
-The American Sign Language is one of the most commonly used sign languages. As the Handicapped Olympic Game comes near, the need for learning sign languages is expected to rise. However, a good sign language teacher is sometimes difficult to find and the lessons can be costly to take. Motivated by this, our team designed an AI-based sign language learning program. With this program and its 3 built-in modes, you will be able to learn how to sign all the alphabets in ASL and test yourself for the learning outcome.
+The American Sign Language is one of the most commonly used sign languages. As The Paralympic Games come near, the need for learning sign languages is expected to rise. However, a good sign language teacher is sometimes difficult to find and the lessons can be costly to take. Motivated by this, our team designed an AI-based sign language learning program. With this program and its 3 built-in modes, you will be able to learn how to sign all the alphabets in ASL and test yourself for the learning outcome.
 
 ### Usage
 
 #### Download this Github Repository
-Run `git clone `
+Run `git clone https://github.com/moose-not-found/ASL`
 
 
 #### Install dependencies
@@ -16,7 +16,7 @@ Run the command `python main.py`
 
 
 ### Different modes of the program
-![overview] (insert main page picture)
+![overview] (pictures/main_page.png)
 
 #### Learning Mode
 In this mode, the user will be able to input an alphabet that you would like to query and learn, and the program will enable the user's camera and pop up a live-feed window. There will be a reference picture in the frame and the user can imitate the picture to study the sign for that alphabet. After the learning is done, the user can press <b>Q</b> on the keyboard while signing to the camera. The program will then stop the live feed and evaluate the user's learning outcome.
