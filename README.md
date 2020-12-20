@@ -16,7 +16,7 @@ Run the command `python main.py`
 
 
 ### Different modes of the program
-![overview] (pictures/main_page.png)
+<img src="pictures/main_page.png"></div>
 
 #### Learning Mode
 In this mode, the user will be able to input an alphabet that you would like to query and learn, and the program will enable the user's camera and pop up a live-feed window. There will be a reference picture in the frame and the user can imitate the picture to study the sign for that alphabet. After the learning is done, the user can press <b>Q</b> on the keyboard while signing to the camera. The program will then stop the live feed and evaluate the user's learning outcome.
