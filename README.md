@@ -35,7 +35,7 @@ In this mode, the user will be quizzed. The program will randomly request a lett
 
 
 #### Future Work
-We wanted to add the feature heat map identifying properties of GradCam. With this added information, we could overlay it on top of the live video feed so that the user can get some feedback from the program and adjust their hand position. Due to lacking technology specifications, we were unable to implement this feature, and have had productive conversations with peers in the field for possible solutions
+We wanted to add the feature heat map identifying properties of GradCam. With this added information, we could overlay it on top of the live video feed so that the user can get some feedback from the program and adjust their hand position. Due to lacking technology specifications, we were unable to implement this feature, and have had productive conversations with peers in the field for possible solutions.
 
 ### Reference
 Credit of our CNN model goes to <a href="https://github.com/jonathanoheix/Real-Time-Face-Expression-Recognition">Jonathan Oheix</a>
