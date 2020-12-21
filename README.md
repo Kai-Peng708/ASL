@@ -32,3 +32,9 @@ In this mode, the user can practice signing the alphabets learned from Learning 
 In this mode, the user will be quizzed. The program will randomly generate alphabets for the user to sign. Once the user sign correctly, the program will provide the next alphabet to sign. After about 20 seconds, the quiz will end and the program will indicate how many correct ones the user signed.
 
 <img src="pictures/Quiz_mode.png"></div>
+
+
+### Reference
+Credit of our CNN model goes to <a href="https://github.com/jonathanoheix/Real-Time-Face-Expression-Recognition">Jonathan Oheix</a>
+
+Our database is from <a href=https://www.kaggle.com/grassknoted/asl-alphabet>here</a>
